@@ -17,7 +17,7 @@ const Payment = () => {
                     <div className='text-sm text-gray-300 mb-3'>Credit Card</div>
                     <input type="password" placeholder='XXXX XXXX XXXX XXXX' className=' w-[90%] ' />
                     <div className='w-[10%] relative'>
-                    <img src={MasterCard} alt="" className='w-10 bottom-0 right-[-385px] absolute'/>
+                    <img src={MasterCard} alt="" className='w-10 bottom-0 right-[-269px] md:right-[-385px] absolute'/>
 
                     </div>
                     <div className='w-[100%] h-[1px] bg-gray-300'></div>
